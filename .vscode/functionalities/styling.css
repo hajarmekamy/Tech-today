@@ -1,0 +1,151 @@
+#outer-grid {
+    background:url("./white.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 40px;
+    width:1030px;
+    height: 500px;
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 12px;
+      padding: 60px;
+      border: 3px solid gray;
+    }
+    
+    #outer-grid > div {
+      background-color: transparent;
+      border: 0.1px solid rgba(104, 102, 102, 0.582);
+      height: 230px;
+    }
+    
+    #inner-grid {
+      display: grid;
+      grid-gap: 6px;
+    }
+    
+    #inner-grid > div {
+      border: 0.1px solid rgba(104, 102, 102, 0.582);
+       padding: 5px;
+       color: black;
+       padding:10px;
+    }
+    
+    
+    #square {
+        display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 7px;
+    }
+    
+    #square > div {
+      color: black;  
+      border: 1px solid black;
+      border: 0.1px solid rgba(104, 102, 102, 0.582);
+      padding:7px;
+    }
+    
+    #home,#about {
+      float: left;
+      margin-top: 20px;
+      margin-left: 20px;
+       width: 60px;
+       height:60px; 
+    }
+     h3 {
+       float: right;
+       margin-right: 145px;
+       margin-top: 37px;
+     }
+    
+    #glucose,
+    #heart-rate,
+    #activity,
+    #alarm{
+      margin-top: 9px;
+      margin-left: 52px;
+       width: 22px;
+       height:22px;
+       }
+    
+    #gluc, #heart, #activ, #ala {
+      margin-left: 23px;
+    }
+    
+    
+    #settings, #battery, #updates {
+      margin-top: 8px;
+      margin-left: 16px;
+    }
+    
+    #sett,#batt,#ups  {
+      margin-top: 12px;
+      margin-right: 140px;
+      float: right;
+    }
+    
+    #weather, #time, #date {
+      margin-top:2px;
+      width: 30px;
+      height: 30px;
+      margin-left: 3px;
+    }
+    
+    #weath {
+      margin-top: 10px;
+      margin-right:150px;
+      float: right;
+    }
+    
+    #tim,#da {
+      margin-top: 10px;
+      margin-right:170px;
+      float: right;
+    }
+    
+    #edit-account,#data-backup {
+      width: 35px;
+      height: 35px;
+      margin-top: 17px;
+      margin-left: 3px;
+    }
+    
+    #history,#statistics {
+      width: 35px;
+      height: 35px;
+      margin-left: 55px;
+      margin-top: 17px;
+    
+    }
+    
+    #edit, #data{
+      float: right;
+      margin-right: 20px;
+      margin-top: 27px;
+    }
+    
+    #hist, #statis {
+      margin-left: 30px;
+      margin-top: 27px;
+    }
+    
+    #find-watch,#bluetooth {
+      width: 35px;
+      height: 35px;
+      margin-top: 25px;
+      margin-left: 50px;
+    }
+    
+    #find,#bluet {
+      float:right;
+      margin-top: 33px;
+      margin-right: 70px;
+    
+    }
+    
+    #bluet {
+      float:right;
+      margin-top: 33px;
+      margin-right: 100px;
+    }

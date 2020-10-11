@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+.container { 
+  height: 655px;
+  width: 1200px; 
+  background: url("./freedom\ .jpeg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover; 
+  border:3px solid gray; 
+  margin-top: 50px;
+  margin-left: 35px;
+  /* border: 3px solid gray; */
+ }
+
+.about {
+  font-variant: small-caps; 
+  text-transform: none; 
+  float: left;
+  width: 420px;
+  height: 600px;
+  font-size: 23px;
+   margin: 13px;
+   padding:13px;
+   color: white;
+}
+
+h1 {
+  color: gray;
+  font-size: 60px;
+}
+
+h5 {
+  font-size: 35px;
+}
+
+button {
+  margin-left:40px;
+  margin-top:70px;
+  padding: 25px;
+  background-color: gray;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  float: right;
+  height:450px;
+  width: 540px;
+ background-repeat: no-repeat;
+  margin-top: 38px;
+  margin-right:0px;
+}
+
+
+#box {
+  background-color: rgba(192, 187, 187, 0.226);
+  background-size: auto;
+  width:1117px;
+  height: 570px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-left: 38px;
+}
+   
+
